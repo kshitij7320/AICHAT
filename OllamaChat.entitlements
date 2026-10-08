@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Enables macOS App Sandboxing -->
+    <key>com.apple.security.app-sandbox</key>
+    <true/>
+    <!-- Permits outgoing network requests to localhost:11434 and local network daemons -->
+    <key>com.apple.security.network.client</key>
+    <true/>
+    <!-- Optional: File access entitlements if exporting chats outside standard sandbox directories -->
+    <key>com.apple.security.files.user-selected.read-write</key>
+    <true/>
+</dict>
+</plist>
